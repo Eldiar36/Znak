@@ -1,0 +1,643 @@
+
+@media (max-width: 1400px) {
+    .container-my {
+        max-width: 1276px;
+        padding: 0 60px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    #crm .wrapper-form:before {
+        left: -300px;
+    }
+
+    #cooperation .row-cop {
+        justify-content: center;
+    }
+
+    footer .subtitle {
+        font-size: 14px;
+    }
+
+    footer .form h3 {
+        font-size: 20px;
+    }
+
+    footer .footer-menu ul .title {
+        font-size: 20px;
+    }
+
+    footer .footer-menu li {
+        padding: 8px 0 0 0;
+    }
+
+    footer .contacts h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    footer .contacts {
+        margin: 15px 0;
+    }
+
+    footer .box .logo {
+        margin-bottom: 15px;
+    }
+
+    footer form .button {
+        font-size: 13px;
+    }
+    /*coffee.html*/
+    #category .coffee-item p {
+        font-size: 20px;
+    }
+    #category .row-wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .header-fixed {
+        padding: 0 5%;
+    }
+   .mobile-btn {
+       right: 6%;
+   }
+
+    }
+    @media (max-width: 1024px) {
+        header .header .nav-menu{
+            display: none;
+        }
+        header .header .mobile-btn {
+            visibility: visible;
+        }
+        header .header .right-menu {
+            display: none!important;
+        }
+        #goodcoffee .box {
+            width: 20%;
+            margin-right: 20px;
+        }
+
+        #goodcoffee .panel {
+            padding: 0;
+        }
+
+        #cooperation {
+            padding: 100px 0;
+        }
+
+        #cooperation .box-map {
+            background-size: cover;
+            max-width: 100%;
+            height: 650px;
+        }
+
+        #cooperation .box-map:before {
+            top: 0;
+
+        }
+
+        #cooperation .box {
+            margin-bottom: 30px;
+        }
+
+        #result {
+            padding: 30px 0 110px 0;
+        }
+
+        #result .section-title {
+            margin-bottom: 40px;
+        }
+
+        #result .box {
+            margin-bottom: 20px;
+        }
+
+        #review-slider {
+            padding: 0 0 100px 0;
+        }
+
+        #review-slider .owl-prev {
+            left: -18%;
+        }
+
+        #review-slider .owl-next {
+            right: -18%;
+        }
+
+        #cooperation-slider {
+            padding: 0 0 140px 0;
+        }
+
+        #cooperation-slider .box-bg,
+        #cooperation-slider .box-bg-after,
+        #cooperation-slider .box-opacity {
+            display: none;
+        }
+
+        #withus {
+            background: none;
+            padding: 0 0 130px 0;
+        }
+
+        #withus .item {
+            margin-bottom: 15px;
+        }
+
+        #crm {
+            padding: 100px 60px 0 60px;
+        }
+
+        #crm .crm-bg {
+            padding-right: 0;
+        }
+
+        #crm .form-center {
+            margin-bottom: 30px;
+        }
+
+        #crm .wrapper-form:before {
+            left: -90%;
+        }
+
+        #team-manageers .box {
+            margin-top: 12px;
+        }
+
+        #application .img-box {
+            display: none;
+        }
+
+        #application .form {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #application .form input {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .header.header-fixed .logo {
+            padding-top: 0;
+        }
+
+    }
+    @media (max-width: 991px) {
+        #crm .wrapper-form:before {
+            display: none;
+        }
+
+        #cooperation-slider .last {
+            display: none;
+        }
+
+        #cooperation-slider.last:after {
+            display: none;
+        }
+
+        #cooperation .box {
+            padding: 0 60px;
+        }
+        footer .footer-form {
+            text-align: center;
+        }
+        footer .form input,
+        footer .form .button {
+            width: 350px;
+        }
+        footer .footer-nav {
+            display: none;
+        }
+        footer .footer-info {
+            text-align: center;
+        }
+        footer .social {
+            justify-content: center;
+        }
+        footer .subtitle {
+            font-size: 14px;
+        }
+
+        footer .form h3 {
+            font-size: 20px;
+        }
+
+        footer .footer-menu ul .title {
+            font-size: 20px;
+        }
+
+        footer .footer-menu li {
+            padding: 8px 0 0 0;
+        }
+
+        footer .contacts h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        footer .contacts {
+            margin: 15px 0;
+        }
+
+        footer .box .logo {
+            margin-bottom: 15px;
+        }
+
+        footer form .button {
+            font-size: 13px;
+        }
+        .mobile-btn {
+            right: 7%;
+        }
+        .header-fixed {
+            padding: 0 7%
+        }
+        /*coffee.html*/
+        #category{
+            padding: 50px 0;
+        }
+        #news {
+            padding: 0 0 50px 0;
+        }
+    }
+    @media (max-width: 767px) {
+        .container-my {
+            max-width: 720px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+
+        #goodcoffee .box {
+            background: none;
+            width: 47%;
+            height: 120px;
+            margin-bottom: 40px;
+            margin-right: 10px;
+        }
+
+        #goodcoffee .panel {
+            display: inline-block;
+            width: 47%;
+            padding: 0;
+        }
+
+        #goodcoffee .panel h2 {
+            font-size: 18px;
+            margin-bottom: 6px;
+            line-height: 22px;
+        }
+
+        #goodcoffee .panel p {
+            font-size: 12px;
+            line-height: 17px;
+        }
+
+        #cooperation .box {
+            padding: 0 30px;
+        }
+
+        #cooperation .box-map {
+            background-size: cover;
+            height: 400px;
+        }
+
+        #crm {
+            padding: 0 30px;
+        }
+
+        #crm .wrapper-form:before {
+            display: none;
+        }
+
+        .owl-nav {
+            display: none;
+        }
+
+        #team-manageers .box {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            padding: 50px 0;
+        }
+
+        footer .icons {
+            margin-bottom: 20px;
+        }
+
+        footer .form input,
+        footer .form .button {
+            width: 300px;
+        }
+
+        footer form .button {
+            padding: 11px 0 10px 0;
+
+        }
+        /*coffee.html*/
+
+
+        @media (max-width: 630px) {
+            footer .form input, footer .form .button {
+                width: 250px;
+            }
+            #purchaseHistory {
+                display: none;
+            }
+            .header-fixed {
+                padding: 0 3%;
+            }
+        }
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+        .header-fixed {
+            padding: 0 7%;
+        }
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 20px !important;
+        }
+        .description {
+            font-size: 12px !important;
+            line-height: 22px;
+        }
+
+        #cooperation-slider .section-title {
+            margin-bottom: 30px;
+        }
+
+        .container-my {
+            width: 100%;
+            padding: 0 20px;
+            margin: auto;
+        }
+
+        .owl-nav {
+            display: none !important;
+        }
+
+        #goodcoffee .box {
+            background: none;
+            width: 47%;
+            height: 120px;
+            margin-bottom: 40px;
+            margin-right: 10px;
+        }
+
+        #goodcoffee .panel {
+            display: inline-block;
+            width: 47%;
+            padding: 0;
+        }
+
+        #goodcoffee .panel h2 {
+            font-size: 18px;
+            margin-bottom: 6px;
+            line-height: 22px;
+        }
+
+        #goodcoffee .panel p {
+            font-size: 12px;
+            line-height: 17px;
+        }
+
+        #goodcoffee .two {
+            flex-direction: row-reverse;
+        }
+
+        #goodcoffee .two .panel {
+            margin-right: 10px;
+        }
+
+        #goodcoffee .two .box {
+            margin-right: 0;
+        }
+
+        #cooperation {
+            padding: 40px 0;
+        }
+
+        #cooperation .box {
+            padding: 0 30px;
+        }
+
+        #cooperation .box-map {
+            height: 286px;
+        }
+
+        #cooperation .box-map p {
+
+            font-size: 156px;
+            right: 0;
+            left: 0;
+            top: -20px;
+        }
+
+        #review-slider .slide svg {
+            margin-top: 0;
+        }
+
+        #review-slider .description {
+            margin: 20px 0 30px 0;
+        }
+
+        #crm {
+            padding: 0 20px;
+            margin: auto;
+            justify-content: center;
+        }
+
+        #crm .crm-bg {
+            padding-right: 0;
+        }
+
+        #crm .form-top .center .center-eclipse {
+            width: 50px;
+        }
+
+        #crm .right .right-eclipse {
+            width: 20px;
+        }
+
+        #crm .form-top .left-svg-2 .eclipse {
+            width: 13px;
+        }
+
+        #crm .wrapper-form:before {
+            display: none;
+        }
+
+        #team-manageers {
+            padding: 100px 0 0 0;
+        }
+
+        #team-manageers .box {
+            margin-bottom: 30px;
+        }
+
+        #partners {
+            padding: 80px 0 60px 0;
+        }
+
+        #team-manageers .description {
+            margin: 20px 0 30px 0;
+        }
+
+        #our-team .play-box {
+            background: url(../images/about-playbg.png) no-repeat;
+            background-size: contain;
+        }
+
+        #our-team .img {
+            height: 474px;
+        }
+        footer .form input, footer .form .button {
+            width: 100%;
+        }
+        /*coffee.html*/
+        #purchaseHistory .box {
+            flex-wrap: wrap;
+        }
+    }
+@media (max-width: 320px) {
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 20px !important;
+        }
+        .description {
+            font-size: 12px !important;
+            line-height: 22px;
+        }
+
+        #cooperation-slider .section-title {
+            margin-bottom: 30px;
+        }
+
+        .container-my {
+            width: 100%;
+            padding: 0 20px;
+            margin: auto;
+        }
+
+        .owl-nav {
+            display: none !important;
+        }
+
+        #goodcoffee .box {
+            background: none;
+            width: 47%;
+            height: 120px;
+            margin-bottom: 40px;
+            margin-right: 10px;
+        }
+
+        #goodcoffee .panel {
+            display: inline-block;
+            width: 47%;
+            padding: 0;
+        }
+
+        #goodcoffee .panel h2 {
+            font-size: 18px;
+            margin-bottom: 6px;
+            line-height: 22px;
+        }
+
+        #goodcoffee .panel p {
+            font-size: 12px;
+            line-height: 17px;
+        }
+
+        #goodcoffee .two {
+            flex-direction: row-reverse;
+        }
+
+        #goodcoffee .two .panel {
+            margin-right: 10px;
+        }
+
+        #goodcoffee .two .box {
+            margin-right: 0;
+        }
+
+        #cooperation {
+            padding: 40px 0;
+        }
+
+        #cooperation .box {
+            padding: 0 30px;
+        }
+
+        #cooperation .box-map {
+            height: 286px;
+        }
+
+        #cooperation .box-map p {
+
+            font-size: 156px;
+            right: 0;
+            left: 0;
+            top: -20px;
+        }
+
+        #review-slider .slide svg {
+            margin-top: 0;
+        }
+
+        #review-slider .description {
+            margin: 20px 0 30px 0;
+        }
+
+        #crm {
+            padding: 0 20px;
+            margin: auto;
+            justify-content: center;
+        }
+
+        #crm .crm-bg {
+            padding-right: 0;
+        }
+
+        #crm .form-top .center .center-eclipse {
+            width: 50px;
+        }
+
+        #crm .right .right-eclipse {
+            width: 20px;
+        }
+
+        #crm .form-top .left-svg-2 .eclipse {
+            width: 13px;
+        }
+
+        #crm .wrapper-form:before {
+            display: none;
+        }
+
+        #team-manageers {
+            padding: 100px 0 0 0;
+        }
+
+        #team-manageers .box {
+            margin-bottom: 30px;
+        }
+
+        #partners {
+            padding: 80px 0 60px 0;
+        }
+
+        #team-manageers .description {
+            margin: 20px 0 30px 0;
+        }
+
+        #our-team .play-box {
+            background: url(../images/about-playbg.png) no-repeat;
+            background-size: contain;
+        }
+
+        #our-team .img {
+            height: 474px;
+        }
+        footer .form input, footer .form .button {
+            width: 100%;
+        }
+    }
