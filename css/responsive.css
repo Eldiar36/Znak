@@ -6,13 +6,7 @@
     }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
-    #crm .wrapper-form:before {
-        left: -300px;
-    }
 
-    #cooperation .row-cop {
-        justify-content: center;
-    }
 
     footer .subtitle {
         font-size: 14px;
@@ -54,22 +48,24 @@
         display: flex;
         justify-content: center;
     }
-    .header-fixed {
-        padding: 0 5%;
+
+    #crm .wrapper-form:before {
+        left: -300px;
     }
-   .mobile-btn {
-       right: 6%;
-   }
+
+    #cooperation .row-cop {
+        justify-content: center;
+    }
 
     }
     @media (max-width: 1024px) {
-        header .header .nav-menu{
-            display: none;
+        header .container {
+            padding: 0;
         }
-        header .header .mobile-btn {
-            visibility: visible;
+        .burger-menu{
+            display: block;
         }
-        header .header .right-menu {
+        .header-top,.nav-menu,.right-menu {
             display: none!important;
         }
         #goodcoffee .box {
@@ -248,9 +244,6 @@
         .mobile-btn {
             right: 7%;
         }
-        .header-fixed {
-            padding: 0 7%
-        }
         /*coffee.html*/
         #category{
             padding: 50px 0;
@@ -265,7 +258,42 @@
             padding: 0 15px;
             margin: 0 auto;
         }
-
+        /*index html start*/
+        #main-offer
+        {
+            padding: 50px 0;
+        }
+        #main-offer .offer-box {
+            padding-top: 0;
+            padding-bottom: 30px;
+        }
+        #main-offer .main-offer-img img {
+            width: 90%;
+            float: left;
+        }
+        #banners-main .banner-bg {
+            margin-bottom: 30px;
+        }
+        #bestsellers {
+            padding: 50px 0 0 0;
+        }
+        #main-video {
+            padding: 50px 0 0 0;
+        }
+        #main-video .main-video_text p {
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        #news-blog {
+            padding: 50px 0 50px 0;
+        }
+        #news-blog .article-home {
+            margin-bottom: 30px;
+        }
+        .footer-top .right-block img {
+            margin-top: 50px;
+        }
+        /*index html end*/
         #goodcoffee .box {
             background: none;
             width: 47%;
@@ -333,6 +361,9 @@
             padding: 11px 0 10px 0;
 
         }
+        .burger-menu_button {
+            right: 9%;
+        }
         /*coffee.html*/
 
 
@@ -349,9 +380,10 @@
         }
     }
     @media (min-width: 320px) and (max-width: 480px) {
-        .header-fixed {
-            padding: 0 7%;
+        .burger-menu_button {
+            right: 15px;
         }
+
         .section-title {
             font-size: 30px;
             margin-bottom: 20px !important;
@@ -360,7 +392,26 @@
             font-size: 12px !important;
             line-height: 22px;
         }
-
+        /*index html start*/
+        #main-offer {
+            padding: 30px 0;
+        }
+        #main-offer .offer-box .offer-title {
+            font-size: 26px;
+            line-height: 27px;
+            margin-bottom: 10px;
+        }
+        #main-offer .offer-box .offer-subtitle {
+            margin-bottom: 20px;
+        }
+        #main-video {
+            padding: 30px 0 0 0;
+        }
+        .footer-top .right-block h3{
+            margin-top: 10px;
+            font-size: 25px;
+        }
+        /*index html end*/
         #cooperation-slider .section-title {
             margin-bottom: 30px;
         }
@@ -507,7 +558,20 @@
             font-size: 12px !important;
             line-height: 22px;
         }
-
+        /*index html start*/
+    #main-offer .offer-box .offer-title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    #news-blog .article-home .news-text {
+        bottom: -15px;
+        padding: 0 25px 0;
+    }
+    .footer-top .right-block h3 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+        /*index html end*/
         #cooperation-slider .section-title {
             margin-bottom: 30px;
         }

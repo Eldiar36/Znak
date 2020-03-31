@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="owlcarousel/libs/owlcarousel2/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/libs/owlcarousel2/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,29 +14,75 @@
 </head>
 <body>
 <header>
-    <div class="container-my container">
-        <div class="header d-flex align-items-center justify-content-between">
-            <div class="left d-flex">
-                <a href="index.html" class="logo">
-                    <img src="images/logo%201.svg" alt="">
-                </a>
-                <ul class="nav-menu">
-                    <li><a href="#">Интернет-магазин</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Блог</a></li>
-                </ul>
+    <div class="header">
+        <div class="col-md-12" style="background: #000;border-bottom: 1px solid #444;">
+            <div class="container">
+                <div class="header-top row no-gutters " style="padding: 5px 10px">
+                    <div class="col-md-9 justify-content-between">
+                        <a href="#" class="city-select">Москва</a>
+                        <a href="#" class="number">8 800 222 21 42</a>
+                        <a href="about.html" class="top-header_nav">О компании</a>
+                        <a href="wholesalers.html" class="top-header_nav">Оптовикам</a>
+                        <a href="delivery.html" class="top-header_nav">Доставка и оплата</a>
+                    </div>
+                    <div class="col-md-3" style="text-align: right">
+                        <a href="#" class="top-header-right_nav">Вход</a>
+                        <a href="#" class="top-header-right_nav">Регистрация</a>
+                    </div>
+                </div>
             </div>
-            <div class="right-menu d-flex">
-                <a  href="#" class="cart">
-                    <img src="images/Vector.svg" alt="">
-                    <span>3 700 ₽</span>
+        </div>
+        <div class="col-md-12 ">
+            <div class="container">
+                <div class="row no-gutters header-bottom">
+                    <div class="col-md-9 header-bottom_left-column d-flex align-items-center">
+                        <a href="index.html" class="logo">
+                            <img src="images/logo%201.svg" alt="">
+                        </a>
+                        <ul class="nav-menu">
+                            <li><a href="coffee.html">Кофе</a></li>
+                            <li><a href="tea.html">Чай</a></li>
+                            <li><a href="accessories.html">Аксессуары</a></li>
+                            <li><a href="equipment.html">Оборудование</a></li>
+                            <li><a href="merchandising.html">Мерчендайзинг</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-menu col-md-3  d-flex justify-content-end align-items-center">
+                        <a  href="#" class="cart">
+                            <img src="images/Vector.svg" alt="">
+                            <span>0 ₽</span>
+                        </a>
+                        <a href="#">
+                            <img src="images/Vector%20(1).svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img style="margin-right: 0" src="images/Group.svg" alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="burger-menu ">
+                <a href="#" class="burger-menu_button">
+                    <span class="burger-menu-lines"></span>
                 </a>
-                <a href="#">
-                    <img src="images/Vector%20(1).svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="images/Group.svg" alt="">
-                </a>
+                <nav class="burger-menu_nav">
+                    <a href="index.html" class="burger-menu_link">Главная</a>
+                    <a href="#" class="burger-menu_link">Вход</a>
+                    <a href="#" class="burger-menu_link">Регистрация</a>
+                    <a href="merchandising.html" class="burger-menu_link">О компании</a>
+                    <a href="merchandising.html" class="burger-menu_link">Оптовикам</a>
+                    <a href="merchandising.html" class="burger-menu_link">Доставка и оплата</a>
+                    <a href="coffee.html" class="burger-menu_link">Кофе</a>
+                    <a href="tea.html" class="burger-menu_link">Чай</a>
+                    <a href="accessories.html" class="burger-menu_link">Ассессуары</a>
+                    <a href="equipment.html" class="burger-menu_link">Оборудование</a>
+                    <a href="merchandising.html" class="burger-menu_link">Мерчендайзинг</a>
+
+                </nav>
+                <div class="burger-menu_overlay">
+
+                </div>
             </div>
         </div>
     </div>
@@ -45,17 +91,31 @@
     <section id="about">
         <div class="container-my">
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class=" col-md-7 col-sm-12 col-xs-12">
                     <div class="about-box">
                         <h2 class="section-title">
                             О компании
                         </h2>
-                        <p class="description">Приятно, граждане, наблюдать,
-                            как непосредственные участники технического прогресса призывают нас
-                            к новым свершениям, которые, в свою очередь, должны быть объявлены нарушающими
-                            общечеловеческие нормы этики и морали. Таким образом, укрепление и развитие
-                            внутренней структуры выявляет срочную потребность
-                            своевременного выполнения сверхзадачи. Явные признаки победы институционализации.
+                        <p class="description">
+                            В 2015 году мы создали компанию ZNAK COFFEE чтобы совместить авторский
+                            подход в обжарке кофе с
+                            бизнесом.
+                            <br>
+                            <br>
+                            Наши обжарщики несколько лет учились у мировых экспертов, получили SCAE -
+                            сертификацию по обжарке и приготовлению кофе.
+                            Мы поставляем стабильное зерно, которое обжариваем на самых лучших ростерах
+                            в своих классах: высокотехнологичном ростере Loring и
+                            гибком в работе Probat Но больше
+                            всего нас любят и уважают за сервис, о котором вы
+                            узнаете из отзывов наших партнёров.
+                            <br>
+                            <br>
+                            <span style="font-weight: 700">Кто мы?</span> <br>
+                            Мы люди, которые меняют представление о сервисе в кофейном бизнесе.
+                            Мы находимся в непрерывном поиске лучшего кофе.
+                            Отбор, пробы обжарки, калибровки и дегустации, настройки и профили обжарки, это наша повседневная работа, которая нас вдохновляет.
+                            Мы гордимся тем, что мы делаем, и гордимся своим кофе!
                         </p>
                         <a class="button" href="#">
                             <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,84 +156,94 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 play-box">
                     <div class="box">
-                        <img src="images/about-playbg.png" alt="">
+                        <iframe width="100%" height="450" style="border-radius: 20px"
+                                src="https://www.youtube.com/embed/JRvLBqmhd0E"
+                                frameborder="0" allow="accelerometer; autoplay;
+                                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
-    <footer>
-        <div class="container-my container">
-            <div class="row">
-                <div class="col-lg-4 footer-info">
-                    <div class="box">
-                        <div class="logo">
-                            <img src="images/logo%201.svg" alt="">
-                        </div>
-                        <div class="social d-flex">
-                            <a href="#"> <img src="images/instagram.svg" alt=""></a>
-                            <a href="#"> <img src="images/f.svg" alt=""></a>
-                            <a href="#"> <img src="images/vk.svg" alt=""></a>
-                            <a href="#"> <img src="images/youtube.svg" alt=""></a>
-                        </div>
-                        <div class="contacts">
-                            <p>Бесплатный звонок по России:</p>
-                            <h3>8 4722 36 50 21</h3>
-                            <span>sale@miskhacoffee.ru</span>
-                        </div>
-                        <div class="cart">
-                            <p>Политика конфедициальности</p>
-                            <p>Обаботка персональных данных</p>
-                            <div class="icons">
-                                <img src="images/qiwi.png" alt="">
-                                <img src="images/sber.png" alt="">
-                                <img src="images/maestro.png" alt="">
-                                <img src="images/mastercard.png" alt="">
-                            </div>
-                        </div>
-                    </div>
+<div class="container-fluid">
+    <div class="row footer-top">
+        <div class="col-md-6">
+            <div class="row" style="padding: 20px 0">
+                <div class="col-md-5">
                 </div>
-                <div class="col-lg-5 footer-nav">
-                    <div class="footer-menu d-flex">
-                        <ul>
-                            <li class="title">Каталог</li>
-                            <li><a href="#">Кофе</a></li>
-                            <li><a href="#">Чай</a></li>
-                            <li><a href="#">Аксессуары</a></li>
-                            <li><a href="#">Мерчендазинг</a></li>
-                            <li><a href="#">Кофемашины</a></li>
-                            <li><a href="#">Кофемолки</a></li>
-                            <li><a href="#">Акции и скидки</a></li>
-                            <li><a href="#">Подарочные карты</a></li>
-                        </ul>
-                        <ul>
-                            <li class="title">Компания</li>
-                            <li><a href="#">Компания</a></li>
-                            <li><a href="#">Производство</a></li>
-                            <li><a href="#">Оптовикам</a></li>
-                            <li><a href="#">ДОставка и оплата</a></li>
-                            <li><a href="#">Бонусная программа</a></li>
-                            <li><a href="#">Вопрос-ответ</a></li>
-                            <li><a href="#">Как выбрать кофе?</a></li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class=" col-lg-3 justify-content-end footer-form">
-                    <div class="form">
-                        <h3>Подписка на новости</h3>
-                        <p class="subtitle">Подпишитесь на новости,чтобы <br> узнавать о новинках и скидках</p>
-                        <form action="">
-                            <input type="text" placeholder="Ваш email"> <br>
-                            <a class="button" href="#">Подписаться</a>
-                            <p>Нажимая на кнопку подписаться вы соглашаетесь с <a href="#">правилами пользования сервисом</a></p>
-                        </form>
-                    </div>
+                <div class="col-md-7 right-block">
+                    <img src="images/delivery-truck.svg" alt="">
+                    <h3> Бесплатная доставка</h3>
+                    <p>При заказе на сумму  от 2000Р</p>
+                    <a href="delivery.html" class="button-small  btn-white mt-20">Подробнее</a>
                 </div>
             </div>
         </div>
-    </footer>
+        <div class="col-md-6" style="padding: 0">
+            <img src="images/delivery-img.jpg" alt="" style="background-size: cover">
+        </div>
+    </div>
+</div>
+<footer id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 footer-info">
+                <div class="box">
+                    <div class="logo">
+                        <img src="images/logo%201.svg" alt="">
+                    </div>
+                    <div class="social d-flex">
+                        <a href="#"> <img src="images/instagram.svg" alt=""></a>
+                        <a href="#"> <img src="images/f.svg" alt=""></a>
+                        <a href="#"> <img src="images/vk.svg" alt=""></a>
+                        <a href="#"> <img src="images/youtube.svg" alt=""></a>
+                    </div>
+                    <div class="contacts">
+                        <p>Бесплатный звонок по России:</p>
+                        <h3>8 4722 36 50 21</h3>
+                        <span>sale@miskhacoffee.ru</span>
+                    </div>
+                    <div class="cart">
+                        <p>Политика конфедициальности</p>
+                        <p>Обаботка персональных данных</p>
+                        <div class="icons">
+                            <img src="images/qiwi.png" alt="">
+                            <img src="images/sber.png" alt="">
+                            <img src="images/maestro.png" alt="">
+                            <img src="images/mastercard.png" alt="">
+                        </div>
+                    </div>
+                </div> <ul>
+
+            </ul>
+            </div>
+            <div class="col-md-3 col-6 footer-nav">
+                <div class="footer-menu d-flex">
+                    <ul>
+                        <li class="title">Каталог</li>
+                        <li><a href="coffee.html">Кофе</a></li>
+                        <li><a href="tea.html">Чай</a></li>
+                        <li><a href="accessories.html">Аксессуары</a></li>
+                        <li><a href="merchandising.html">Мерчендазинг</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 footer-nav">
+                <div class="footer-menu d-flex">
+                    <ul>
+                        <li class="title">Компания</li>
+                        <li><a href="about.html">Компания</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="wholesalers.html">Оптовикам</a></li>
+                        <li><a href="delivery.html">ДОставка и оплата</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
     <script src="owlcarousel/jquery/jquery-3.4.1.min.js"></script>
     <script src="owlcarousel/libs/owlcarousel2/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
